@@ -5,10 +5,10 @@ $CONFIG = array (
   'secret' => 'TpjXsUk0InQZ5Lm26sJZk/p5zFjz9+5u4uNAnoA/5w3Hu9oW',
   'trusted_domains' => 
   array (
-    0 => '172.247.26.206',
+    0 => 'https://luccui-owncloud.herokuapp.com/',
   ),
-  'datadirectory' => '/var/www/html/owncloud/data',
-  'overwrite.cli.url' => 'http://172.247.26.206/owncloud',
+  'datadirectory' => '/app/data',
+  'overwrite.cli.url' => 'https://luccui-owncloud.herokuapp.com/',
   'dbtype' => 'mysql',
   'version' => '10.4.0.4',
   'dbname' => 'ownclound',
@@ -22,13 +22,13 @@ $CONFIG = array (
   array (
     0 => 
     array (
-      'path' => '/var/www/html/owncloud/apps',
+      'path' => '/app/apps',
       'url' => '/apps',
       'writable' => false,
     ),
     1 => 
     array (
-      'path' => '/var/www/html/owncloud/apps-external',
+      'path' => '/app/apps-external',
       'url' => '/apps-external',
       'writable' => true,
     ),
