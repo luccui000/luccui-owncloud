@@ -1,0 +1,11 @@
+{
+	"require": {
+		"php": "^7.4",
+		"ext-bcmath": "*", 
+		"ext-mcrypt": "*", 
+		"ext-memcached": "*",
+							    
+		"ext-mongodb": "^1.1.0"
+	}
+}
+
