@@ -28,7 +28,7 @@ $CONFIG = array (
     ),
     1 => 
     array (
-      'path' => '/app/apps-external',
+      'path' => '/app/apps/external',
       'url' => '/apps-external',
       'writable' => true,
     ),
